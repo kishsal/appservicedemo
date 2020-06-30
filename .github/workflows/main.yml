@@ -16,7 +16,7 @@ jobs:
         steps:
             -uses: action/checkout@master
             -name: Login via Azure CLI
-             uses: azure/login@v1
+             uses: azure/login@v1.1
              with:
                 creds: ${{secrets.AZURE_CREDENTIALS}}
             -name: SETUP .NET Core
