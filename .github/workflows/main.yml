@@ -3,12 +3,12 @@ name: Deploy ASP.NET CORE
 on:
     push:
         branches:
-            -master
+            - master
 
 env:
     AZURE_WEBAPP_NAME: ks-webappdemo
     AZURE_WEBAPP_PATH: '.'
-    DOTNET_VERSION: '3.1.301'
+    DOTNET_VERSION: '3.1.402'
 
 jobs:
     build-and-deploy: 
